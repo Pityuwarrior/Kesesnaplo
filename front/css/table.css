@@ -1,0 +1,51 @@
+table {
+  border-collapse: collapse;
+	min-width: 250px;
+	max-width: 100%;
+	margin: auto;
+	table-layout: auto;
+	text-align: left;
+	width: 100%;
+}
+tr {
+	border: 1px solid;
+	margin: 2px;
+}
+tr.sor:hover {
+	background-color: #eee;
+}
+th, td {
+	max-width: 350px;
+}
+tr th img,tr td img {width:30px;height:30px;}
+th a:hover, td a:hover {background-color: transparent;}
+th a img:hover, td a img:hover {filter: drop-shadow(0 0 5px black);}
+th.num, td.num {
+	text-align: right;
+}
+th.ctr, td.ctr {
+	text-align: center;
+}
+th.str, td.str {
+	text-align: left;
+}
+th img, td img {height: 80px;}
+caption, tr, th, td {
+		padding: 10px;
+	}
+th a, td a {
+	padding: 0;
+}
+th a:hover, td a:hover {background-color: inherit;}
+@media screen and (max-width: 600px) {
+	caption, tr, tbody {
+		display: block;
+	}	
+	th, td {
+		padding: 4px 8px;
+		display: block;
+	}
+	th.num, td.num, th.ctr, td.ctr {
+		text-align: left;
+	}
+}

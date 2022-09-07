@@ -1,0 +1,5 @@
+<?php
+
+//saját függvények
+
+?>
